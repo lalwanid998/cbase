@@ -6,7 +6,7 @@ import Home from "./Pages/Home";
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="cbase">
       <Routes>
       <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
